@@ -1,0 +1,45 @@
+:root {
+    --primary-color: ;
+    --secondary-color: ;
+    --accent-color: ;
+    --common-white: ;
+    --main-font: ;
+    --text-size ;
+
+}
+* {
+    box-sizing: border-box;
+}
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+.header {
+    width: 1600px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    padding: 50px;
+    display: flex;
+    aligin-items: center;
+}
+.navigation-list {
+    display: flex;
+}
+.navigation-link {
+    color: var(--secondary-color);
+    text-decoration: none;
+    margin: 50px;
+}
+.list {
+
+}
+.logo {
+    margin-right: ;
+    text-decoration: none;
+    color: var(--main-font);
+    font-family: ;
+    font-weight: 700;
+}
+.logo-dot {
+    color: var(--accent-color--)
+}
