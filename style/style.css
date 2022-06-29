@@ -100,7 +100,7 @@
     text-decoration: none;
     font-weight: 500;
     font-size: var(--text-size);
-    color: var(--secondary-color);
+    color: var(--p-color);
    
 }
 .navigation-link {
@@ -144,8 +144,10 @@
 }
 .buttons {
     display: flex;
+    cursor: pointer;
 }
 .button {
+    cursor: pointer;
     position: absolute;
     background-color: var(--accent-color);
     width: 200px;
@@ -160,6 +162,7 @@
     font-size: 16px;
     line-height: 1.9em;
     color: var(--common-white);
+    letter-spacing: 1.88;
 }
 .list-method {
     margin: 95px 215px 94px 215px;
@@ -183,19 +186,16 @@
     margin-bottom: 10px;
 }
 .paragraph {
-   
     font-size: 0.875em;
     color: var(--p-color);
-    line-height: 1.5em;
+    line-height: 24px;
     letter-spacing: 0.03em;
 }
 .what-we-do {
-    text-align: center;
-   
     font-weight: 700;
     font-size: 36px;
     line-height: 2.55em;
-    text-align: center;
+    margin-left: 615px;
     letter-spacing: 0.03em;
     color: var(--secondary-color);
 }
@@ -274,15 +274,14 @@
    
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.2em;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
 }
 .team-work {
     padding-top: 10px;
-   
     font-size: 16px;
-    line-height: 1.2em;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--p-color);
@@ -305,6 +304,7 @@
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
+    line-height: 1.18;
 }
 .location{
     color: var(--common-white);
@@ -328,11 +328,6 @@ address {
 .mail,
 .call {
     text-decoration: none;
-}
-/* body portfolio */
-.body2 {
-    height: 1880px;
-    
 }
 /* main portfolio */
 .main {
@@ -358,7 +353,7 @@ address {
     text-align: center;
     background-color: var(--primary-color);
     border-radius: 4px;
-    padding: 6px 22px 6px 22px;
+    padding: 0px 22px 6px 22px;
 }
 
 .button1:focus,
@@ -370,13 +365,21 @@ address {
     color: var(--common-white);
     background-color: var(--accent-color);
 }
+.button1:hover,
+.button2:hover,
+.button3:hover,
+.button4:hover,
+.button5:hover {
+    color: var(--common-white);
+    background-color: var(--accent-color);
+}
 
 .button-text {
     color: var(--secondary-color);
     font-weight: 500;
     text-decoration: none;
-    font-size: 1.000em;
-    line-height: 2.25em;
+    font-size: 1.000;
+    line-height: 2.25;
 }
 
 .button-text:hover{
@@ -410,8 +413,8 @@ address {
     color: var(--secondary-color);
     font-weight: 700;
     font-size: 18px;
-    line-height: 2.25em;
-    margin-bottom: 10px;
+    line-height: 2.25;
+    margin-bottom: 7px;
     margin-top: 15px;
 
 }
